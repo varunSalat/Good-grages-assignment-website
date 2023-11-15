@@ -1,0 +1,20 @@
+body {
+    --background: white;
+    --font-main-color: black;
+    --font-theme-color: rgb(0, 59, 220);
+    --font-second-color: rgb(71, 71, 71);
+    --theme-color: rgb(255, 94, 0);
+    --about-us-background: rgba(104, 138, 170, 0.2);
+    --feature-background: rgb(22, 22, 50);
+    /* --about-us-background: rgb(0, 59, 220); */
+}
+
+body.dark {
+    --background: black;
+    --font-main-color: white;
+    --font-second-color: rgb(208, 208, 208);
+    --font-theme-color: rgb(107, 171, 255);
+    --about-us-background: rgba(131, 187, 240, 0.3);
+    --about-us-background: rgba(66, 72, 79, 0.558);
+    --feature-background: black;
+}
